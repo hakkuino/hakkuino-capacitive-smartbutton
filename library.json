@@ -1,0 +1,26 @@
+{
+    "name": "hakkuino-capacitive-smartbutton",
+    "keywords": "capacitive, sensor, button, click, long click, double click",
+    "description": "Smart lib to decode simple click, double click, x-click and long press, double long press, x long press.",
+    "authors":
+    {
+        "name": "Nicolas Marsal",
+        "url": ""
+    },
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/hakkuino/hakkuino-capacitive-smartbutton"
+    },
+    "extern":
+    {
+        "include": "SmartButton"
+    },
+    "dependencies": {
+        "CapacitiveSensor":"0.5.1",
+        "hakkuino-logging":"1.0"
+    },
+    "version": "1.0",
+    "frameworks": "arduino",
+    "platforms": "atmelavr"
+}
